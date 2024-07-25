@@ -12,7 +12,7 @@ import { environment } from '../environments/environment';
 export class AppComponent {
   title = 'Wishing-Well-Frontend';
   public form!: FormGroup;
-  public listCategory: string[] = ['เครื่องใช้ในบ้าน', 'สวนและการเกษตร', 'เสื้อผ้า', 'ไอที', 'สัตว์เลี้ยง', 'กีฬาและกิจกรรม', 'เครื่องประดับ', 'อาหารและเครื่องดื่ม', 'เครื่องเขียน', 'หนังสือ'];
+  public listCategory: string[] = ['เครื่องใช้ในบ้าน', 'สวนและการเกษตร', 'เสื้อผ้า', 'ไอที'];
   public overlayVisible = false;
   public products: any[] = [];
   constructor(
