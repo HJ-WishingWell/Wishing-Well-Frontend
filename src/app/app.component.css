@@ -1,0 +1,75 @@
+.require-input-red {
+  color: red;
+}
+
+.form-product-search {
+  margin-top: 48px;
+  margin-bottom: 48px;
+  width: 100%;
+  padding: 24px 8px 24px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.card {
+  max-width: 100% !important;
+  max-height: 230px;
+}
+img.market {
+  height: 230px !important;
+}
+.product-list{
+ padding: unset !important;
+
+}
+
+.available {
+  color: #676767;
+  font-weight: bold;
+}
+
+.card-title {
+  margin-bottom: 2px;
+}
+.card-text {
+  white-space: pre-line !important;
+
+}
+.detail-product {
+  height: 98px;
+  width: 100%; /* กำหนดขนาดของกรอบ */
+  white-space: nowrap; /* ห้ามข้อความขึ้นบรรทัดใหม่ */
+  overflow: hidden; /* ซ่อนส่วนที่เกินกรอบ */
+  text-overflow: ellipsis; /* แสดง ... เมื่อข้อความเกินกรอบ */
+}
+
+.category {
+  font-weight: bold;
+  color: #555353;
+  margin-bottom: 0px;
+  font-size: 14px;
+}
+
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.364) !important; /*
+   ปรับค่านี้เพื่อความโปร่งใส */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
+}
+
+.invalid {
+  border: 1px dashed #ff3b30 !important;
+}
+
+input, textarea, select, button {
+  box-shadow: none !important;
+}
