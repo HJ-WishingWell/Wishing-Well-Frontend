@@ -31,11 +31,16 @@ img.market {
 .card-title {
   margin-bottom: 2px;
 }
+.card-price {
+  margin-bottom: unset !important;
+  margin-top: 4px !important
+}
 .card-text {
   white-space: pre-line !important;
 
 }
 .detail-product {
+  margin-bottom: 4px;
   height: 98px;
   width: 100%; /* กำหนดขนาดของกรอบ */
   white-space: nowrap; /* ห้ามข้อความขึ้นบรรทัดใหม่ */

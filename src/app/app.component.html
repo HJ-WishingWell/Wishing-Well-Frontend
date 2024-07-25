@@ -43,6 +43,7 @@
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">{{product.name}}</h5>
+              <h5 class="card-price">{{product.price}} บาท</h5>
               <small class="text-muted"><img style="margin-right: 4px;" width="12" height="12" src="https://img.icons8.com/color/48/price-tag--v1.png" alt="price-tag--v1" />{{product.category}}</small>
               <!-- <p class="card-text d-flex justify-content-start align-items-baseline category">{{product.category}}</p> -->
               <p class="card-text detail-product" [innerHTML]="replaceNewLine(product.detail)"></p>
