@@ -1,5 +1,8 @@
 <div class="container">
   <div class="row">
+    <img src="image.png"  width="200" height="280" alt="">
+  </div>
+  <div class="row">
     <div class="form-product-search">
       <form *ngIf="form" [formGroup]="form">
         <div class="form-group">
@@ -40,7 +43,7 @@
           <div class="col-md-2">
             <img class="market" height="230" [src]="product.image" class="img-fluid rounded-start" alt="...">
           </div>
-          <div class="col-md-8">
+          <div class="col-md-10">
             <div class="card-body">
               <h5 class="card-title">{{product.name}}</h5>
               <h5 class="card-price">{{product.price}} บาท</h5>
